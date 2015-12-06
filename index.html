@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>The HTML5 Herald</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="container" id="search-box">
+		<div class="offset-by-three five columns">
+			<h1>Search a movie.</h1>
+			<input type="text" class="u-full-width" id="search_input"> <br>
+			<input type="submit" id="search" class="u-full-width button-primary" value="Pesquisar">
+		</div>
+	</div>
+
+	<div class="container" id="search-result" style="display: none">
+		<div class="">
+			<div class="seven columns">
+				<img src="http://ia.media-imdb.com/images/M/MV5BMTI0NDQ5MTM2MV5BMl5BanBnXkFtZTcwOTIwMjk2MQ@@._V1_SX300.jpg" alt="" id="moviePoster">
+			</div>
+
+			<div class="five columns content">
+				<h1 id="movieTitle">Planet Terror</h1>
+				<p id="movieYear">Year: 2003</p>
+
+				<a href="http://imdb.com" id="movieImdb" target="_blank">IMDB</a>
+
+				<hr>
+
+				<a href="#" id="returnSearch">Search for a New Movie</a>
+			</div>
+		</div>
+	</div>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
